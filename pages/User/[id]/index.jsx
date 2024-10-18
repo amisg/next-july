@@ -17,6 +17,7 @@ function UserDetail() {
 
 	let { id } = query;
 
+	//this is CSR
 	useEffect(() => {
 		async function fetchData() {
 			const url = `https://jsonplaceholder.typicode.com/users/${id}`;
